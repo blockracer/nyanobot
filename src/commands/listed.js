@@ -73,7 +73,7 @@ module.exports = {
                         .addFields(fields)
                         .setURL(`https://nanswap.com/art/${username}${config.referral}`)
                         .setThumbnail(`attachment://${imageName}`)
-                        .setFooter({ text: 'Nyano Bot | Powered by Armour', iconURL: config.embedFooterImage })
+                        //.setFooter({ text: 'Nyano Bot | Powered by Armour', iconURL: config.embedFooterImage })
                         .setTimestamp();
 
                     // Send the message with the Embed and attached image

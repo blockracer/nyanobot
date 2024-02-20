@@ -82,7 +82,7 @@ module.exports = {
                                 .setImage(`attachment://${imageData[fileNumber].id}.png`)
                                 .setURL(link)
                                 // .addFields(baseField)
-                                .setFooter({ text: 'Nyano Bot | Powered by Armour', iconURL: config.embedFooterImage })
+                                //.setFooter({ text: 'Nyano Bot | Powered by Armour', iconURL: config.embedFooterImage })
                                 .setTimestamp();
 
                                 // Send the message with the Embed and attached image

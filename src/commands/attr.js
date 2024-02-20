@@ -110,7 +110,7 @@ module.exports = {
                             .addFields(fields)
                             .setURL(userLink)
                             .setThumbnail(`attachment://${userData.id}.png`)
-                            .setFooter({ text: 'Nyano Bot | Powered by Armour', iconURL: config.embedFooterImage })
+                            //.setFooter({ text: 'Nyano Bot | Powered by Armour', iconURL: config.embedFooterImage })
                             .setTimestamp();
                         message.reply({
                             content: `${message.author}, here is the requested Attribute Count for ${username}.`,

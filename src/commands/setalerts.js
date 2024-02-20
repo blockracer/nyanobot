@@ -4,7 +4,7 @@
 const { setChannelToUpdate, setRoleId, resolveRoleMention } = require('../utils.js');
 const { PermissionsBitField } = require('discord.js');
 const { consoleLog, consoleError } = require('../debug.js');
-const { client } = require('./nft_bot.js');
+const { client } = require('../nft_bot.js');
 
 // Define allowed alert types
 const allowedAlertTypes = ['sales', 'listings', 'transfers', 'offers'];
