@@ -1,7 +1,7 @@
 {
     "__comment__": "Configuration settings for Nyano Cats Discord Bot.",
 
-    "token": "MTIwODY2NzA4ODcxNDA3NjI3MA.Gn8Fgi.0_g9VmRuI8-ffmnu-ot8PuMaLptqJqMjAE143U",
+    "token": "",
     "updateInterval": 30000,
     "prefix": "!",
     "referral": "?r=Armour",
